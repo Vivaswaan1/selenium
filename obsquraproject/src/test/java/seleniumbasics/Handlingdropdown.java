@@ -29,7 +29,9 @@ public class Handlingdropdown extends Base {
 	
 	public void handlingradiobutton()
 	{
-		
+		 driver.navigate().to("https://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
+		 WebElement radiobutton=driver.findElement(By.xpath("//input[@value='green'] "));
+		 radiobutton.click();
 	}
 
 	public static void main(String[] args) {
@@ -39,6 +41,7 @@ public class Handlingdropdown extends Base {
 		drop.initializeBrowser();
 		//drop.handlingdropdown();
 		drop.handlingcheckbox();
+		drop.handlingradiobutton();
 		
 		
 
