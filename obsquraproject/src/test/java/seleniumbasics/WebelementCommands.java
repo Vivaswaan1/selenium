@@ -17,7 +17,7 @@ public class WebelementCommands extends Base {
 	bttn.click();
 	//isdisplayed
 	System.out.println(bttn.isDisplayed());
-	//
+	
 	System.out.println(bttn.isEnabled());
 
 	
