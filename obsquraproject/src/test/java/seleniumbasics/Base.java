@@ -10,7 +10,7 @@ public class Base {
 	public void initializeBrowser()
 	{
 		driver=new ChromeDriver();
-		driver.get("https://selenium.qabible.in/index.php");
+		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 	}
 	
